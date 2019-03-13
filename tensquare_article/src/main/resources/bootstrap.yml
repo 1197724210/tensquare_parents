@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      name: dev
+      profile: article
+      label: master
+      uri: http://127.0.0.1:12000
+  rabbitmq:
+    host: 192.168.25.133
